@@ -1,0 +1,57 @@
+$min-font-size: 16px;
+$max-font-size: 18px;
+$max-reading-width: 580px;
+$msBase: 1.2 !default;
+$msDesktop: 1.5;
+
+$t-default: system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+$t-secondary: 'Montserrat', Helvetica, Arial, sans-serif;
+
+/* Typography */
+html, body {
+    @include fluid-type($min-font-size, $max-font-size);
+
+    color: $c-neutro900;
+    font-family: $t-default;
+    font-weight: 400;
+    line-height: space();
+    text-size-adjust: 100%;
+}
+
+/* Headings */
+h1, .title1 {
+    font-size: ms(4);
+    font-weight: 700;
+    line-height: 1;
+}
+
+h2, .title2 {
+    font-size: ms(3);
+    line-height: 1.2;
+}
+
+h3, .title3 { font-size: ms(2); }
+h4, .title4 { font-size: ms(1); }
+
+p, .p-default { font-size: ms(0); }
+.p-small { font-size: ms(-1); }
+
+h3, h4 { line-height: 1.5; }
+
+h1, h2, h3, h4 {
+    font-family: $t-secondary;
+    margin: 0 0 space();
+}
+
+b, strong { font-weight: 700; }
+i, em { font-style: italic; }
+
+p + p {
+    margin: space() 0 0;
+}
+
+a {
+    color: $c-primary;
+    cursor: pointer;
+    text-decoration: underline;
+}
