@@ -1,0 +1,17 @@
+.cta {
+    align-items: center;
+    cursor: pointer; 
+    display: inline-flex;
+    // font-weight: 800;
+    justify-content: center;
+    padding: space(0.5) 0;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+
+    &--primary {
+        background-color: $c-cta;
+        color: $c-white;
+    }
+}

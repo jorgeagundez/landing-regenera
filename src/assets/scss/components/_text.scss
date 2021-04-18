@@ -1,0 +1,10 @@
+.text {
+
+    margin-bottom: space(1.5);
+
+    @include wrapper($s768);
+
+    p {
+        margin: 0;
+    }
+}
