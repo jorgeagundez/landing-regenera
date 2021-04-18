@@ -4,11 +4,9 @@ import Slider from '../slider/Slider.js';
 
 function Content() {
   return (
-    <main className="main u-padding">
-      <h2>Contenido principal</h2>
+    <main className="main">
       <Hero />
       <Text />
-      <Slider />
     </main>
   );
 }

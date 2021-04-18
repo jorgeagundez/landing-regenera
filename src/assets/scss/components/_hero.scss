@@ -1,0 +1,46 @@
+.hero {
+    align-items: center;
+    background-image: url(../../img/billboard-mv4.jpg);
+    background-position: top right;
+    background-size: cover;
+    color: $c-secondary;
+    min-height: 350px;
+    position: relative;
+
+    &__content {
+        display: block;
+        padding: space(.5);
+        position: absolute;
+        right: 0;
+        width: 65%;
+    }
+
+    &__title {
+        color: $c-secondary;
+        font-weight: 500;
+        text-align: left;
+        margin-bottom: space();
+
+        span {
+            font-weight: 800;
+            text-transform: uppercase;
+            
+        }
+    }
+
+    &__highlighter {
+        background-color: $c-third;
+        font-weight: bold;
+    }
+
+    &__subtitle {
+        color: $c-primary;
+        font-weight: bold;
+        background-color: $c-primary-light;
+    }
+
+    p {
+        margin: 0;
+        padding-left: 1rem;
+    }
+}

@@ -1,5 +1,17 @@
 .header {
-    border: 1px solid red;
+    background-color: white;
 
     @include wrapper($s768, $global-max-width);
+
+    &__logo {
+
+        display: block;
+        padding: space(0.5);
+
+        img {
+            max-width: 250px;
+            margin: 0 auto;
+        }
+    }
 }
+

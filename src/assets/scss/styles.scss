@@ -12,10 +12,11 @@
 @import "./_globals.scss";
 
 // Components
+@import "./components/_header.scss";
+@import "./components/_hero.scss";
 @import "./components/_content.scss";
 @import "./components/_footer.scss";
 @import "./components/_form.scss";
-@import "./components/_header.scss";
 @import "./components/_main-cta.scss";
 @import "./components/_slider.scss";
 @import "./components/_text.scss";

@@ -1,12 +1,12 @@
+import logo from '../../assets/img/logo.jpg';
+
 function Header() {
+
   return (
-    <header className="header u-padding">
-      <div className="u-wrapper">
-        <a href="/" class="header__logo">
-          <span class="u-icon u-flex--inline" aria-hidden="true">Logo</span>
+    <header className="header">
+        <a href="/" className="header__logo">
+          <img src={logo} alt="logo" />
         </a>
-        <h1 className="title1">Título de la landing</h1>
-      </div>
     </header>
   );
 }

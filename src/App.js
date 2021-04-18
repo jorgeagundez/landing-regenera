@@ -9,7 +9,7 @@ function App() {
   return (
     <Fragment>
       <Header />
-      <MainCta />
+      {/* <MainCta /> */}
       <Content />
       <Form />
       <Footer />
